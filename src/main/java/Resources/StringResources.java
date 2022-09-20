@@ -6,7 +6,7 @@ package Resources;
 	 	public	static String browserName="chrome";
 	 	
 	 	
-		public static String MessagesFolder=System.getProperty("user.dir")+"/Messages/";
+		public static String MessagesFolder="https://dhirajkulkarni.com/MarketingFramework/Messages/";
 
 		
 		
@@ -268,8 +268,9 @@ package Resources;
 		//GroupNamePaths
 		
 		
-		public static String CommonUrl=System.getProperty("user.dir")+"//GroupNames";
-		
+		//public static String CommonUrl=System.getProperty("user.dir")+"//GroupNames";
+		public static String CommonUrl="https://dhirajkulkarni.com/MarketingFramework//GroupNames";
+
 		//public static String CommonUrl="c:\\GroupNames";
 
 		//Device1
