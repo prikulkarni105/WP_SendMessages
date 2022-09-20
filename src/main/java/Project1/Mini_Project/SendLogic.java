@@ -75,7 +75,7 @@ public class SendLogic {
 			
 		}
 	   //To close your driver
-	  DriverManager.tearDown(driver);
+	//  DriverManager.tearDown(driver);
 		
 	}
 	
