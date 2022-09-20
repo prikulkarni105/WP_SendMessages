@@ -59,8 +59,10 @@ public class PageObjects {
 			StringSelection message_to_send=new StringSelection(message);
     	    Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
     	    clipboard.setContents(message_to_send, null);
+    	    
+    
 			
-			driver.findElement(By.xpath("//div[@title='Type a message']")).sendKeys(Keys.CONTROL+"V");
+			driver.findElement(By.xpath("//div[@title='Type a message']")).sendKeys(Keys.CONTROL+"v");
 		
 		}
 		
