@@ -271,263 +271,263 @@ package Resources;
 		//public static String CommonUrl=System.getProperty("user.dir")+"//GroupNames";
 		public static String CommonUrl="https://dhirajkulkarni.com/MarketingFramework//GroupNames";
 
-		//public static String CommonUrl="c:\\GroupNames";
+		//public static String CommonUrl="c://GroupNames";
 
 		//Device1
 		
 		public static String Device1FMGroups=CommonUrl+"//Device1//FM.txt";
-		public static String Device1DualFMGroups=CommonUrl+"\\Device1\\FM_DUAL.txt";
-		public static String Device1WorkFMGroups=CommonUrl+"\\Device1\\FM_WORK.txt";
+		public static String Device1DualFMGroups=CommonUrl+"//Device1//FM_DUAL.txt";
+		public static String Device1WorkFMGroups=CommonUrl+"//Device1//FM_WORK.txt";
 
 		
 		
-		public static String Device1GBGroups=CommonUrl+"\\Device1\\GB.txt";
-		public static String Device1DualGBGroups=CommonUrl+"\\Device1\\GB_DUAL.txt";
-		public static String Device1WorkGBGroups=CommonUrl+"\\Device1\\GB_WORK.txt";
+		public static String Device1GBGroups=CommonUrl+"//Device1//GB.txt";
+		public static String Device1DualGBGroups=CommonUrl+"//Device1//GB_DUAL.txt";
+		public static String Device1WorkGBGroups=CommonUrl+"//Device1//GB_WORK.txt";
 
 		
 
-		public static String Device1AEROGroups=CommonUrl+"\\Device1\\AERO.txt";
-		public static String Device1DualAEROGroups=CommonUrl+"\\Device1\\AERO_DUAL.txt";
-		public static String Device1WorkAEROGroups=CommonUrl+"\\Device1\\AERO_WORK.txt";
+		public static String Device1AEROGroups=CommonUrl+"//Device1//AERO.txt";
+		public static String Device1DualAEROGroups=CommonUrl+"//Device1//AERO_DUAL.txt";
+		public static String Device1WorkAEROGroups=CommonUrl+"//Device1//AERO_WORK.txt";
 		
 
-		public static String Device1OGGroups=CommonUrl+"\\Device1\\OG.txt";
-		public static String Device1DualOGGroups=CommonUrl+"\\Device1\\OG_DUAL.txt";
-		public static String Device1WorkOGGroups=CommonUrl+"\\Device1\\OG_WORK.txt";
-		
-		
-
-		public static String Device1WAGroups=CommonUrl+"\\Device1\\WA.txt";
-		public static String Device1DualWAGroups=CommonUrl+"\\Device1\\WA_DUAL.txt";
-		public static String Device1WorkWAGroups=CommonUrl+"\\Device1\\WA_WORK.txt";
-		
-
-
-		public static String Device1WBGroups=CommonUrl+"\\Device1\\WB.txt";
-		public static String Device1DualWBGroups=CommonUrl+"\\Device1\\WB_DUAL.txt";
-		public static String Device1WorkWBGroups=CommonUrl+"\\Device1\\WB_WORK.txt";
+		public static String Device1OGGroups=CommonUrl+"//Device1//OG.txt";
+		public static String Device1DualOGGroups=CommonUrl+"//Device1//OG_DUAL.txt";
+		public static String Device1WorkOGGroups=CommonUrl+"//Device1//OG_WORK.txt";
 		
 		
 
-		public static String Device1YOGroups=CommonUrl+"\\Device1\\YO.txt";
-		public static String Device1DualYOGroups=CommonUrl+"\\Device1\\YO_DUAL.txt";
-		public static String Device1WorkYOGroups=CommonUrl+"\\Device1\\YO_WORK.txt";
+		public static String Device1WAGroups=CommonUrl+"//Device1//WA.txt";
+		public static String Device1DualWAGroups=CommonUrl+"//Device1//WA_DUAL.txt";
+		public static String Device1WorkWAGroups=CommonUrl+"//Device1//WA_WORK.txt";
+		
+
+
+		public static String Device1WBGroups=CommonUrl+"//Device1//WB.txt";
+		public static String Device1DualWBGroups=CommonUrl+"//Device1//WB_DUAL.txt";
+		public static String Device1WorkWBGroups=CommonUrl+"//Device1//WB_WORK.txt";
+		
+		
+
+		public static String Device1YOGroups=CommonUrl+"//Device1//YO.txt";
+		public static String Device1DualYOGroups=CommonUrl+"//Device1//YO_DUAL.txt";
+		public static String Device1WorkYOGroups=CommonUrl+"//Device1//YO_WORK.txt";
 		
 		
 		//Device2
 		
-		public static String Device2FMGroups=CommonUrl+"\\Device2\\FM.txt";
-		public static String Device2DualFMGroups=CommonUrl+"\\Device2\\FM_DUAL.txt";
-		public static String Device2WorkFMGroups=CommonUrl+"\\Device2\\FM_WORK.txt";
+		public static String Device2FMGroups=CommonUrl+"//Device2//FM.txt";
+		public static String Device2DualFMGroups=CommonUrl+"//Device2//FM_DUAL.txt";
+		public static String Device2WorkFMGroups=CommonUrl+"//Device2//FM_WORK.txt";
 
 		
 		
-		public static String Device2GBGroups=CommonUrl+"\\Device2\\GB.txt";
-		public static String Device2DualGBGroups=CommonUrl+"\\Device2\\GB_DUAL.txt";
-		public static String Device2WorkGBGroups=CommonUrl+"\\Device2\\GB_WORK.txt";
+		public static String Device2GBGroups=CommonUrl+"//Device2//GB.txt";
+		public static String Device2DualGBGroups=CommonUrl+"//Device2//GB_DUAL.txt";
+		public static String Device2WorkGBGroups=CommonUrl+"//Device2//GB_WORK.txt";
 
 		
 
-		public static String Device2AEROGroups=CommonUrl+"\\Device2\\AERO.txt";
-		public static String Device2DualAEROGroups=CommonUrl+"\\Device2\\AERO_DUAL.txt";
-		public static String Device2WorkAEROGroups=CommonUrl+"\\Device2\\AERO_WORK.txt";
+		public static String Device2AEROGroups=CommonUrl+"//Device2//AERO.txt";
+		public static String Device2DualAEROGroups=CommonUrl+"//Device2//AERO_DUAL.txt";
+		public static String Device2WorkAEROGroups=CommonUrl+"//Device2//AERO_WORK.txt";
 		
 
-		public static String Device2OGGroups=CommonUrl+"\\Device2\\OG.txt";
-		public static String Device2DualOGGroups=CommonUrl+"\\Device2\\OG_DUAL.txt";
-		public static String Device2WorkOGGroups=CommonUrl+"\\Device2\\OG_WORK.txt";
-		
-		
-
-		public static String Device2WAGroups=CommonUrl+"\\Device2\\WA.txt";
-		public static String Device2DualWAGroups=CommonUrl+"\\Device2\\WA_DUAL.txt";
-		public static String Device2WorkWAGroups=CommonUrl+"\\Device2\\WA_WORK.txt";
-		
-
-
-		public static String Device2WBGroups=CommonUrl+"\\Device2\\WB.txt";
-		public static String Device2DualWBGroups=CommonUrl+"\\Device2\\WB_DUAL.txt";
-		public static String Device2WorkWBGroups=CommonUrl+"\\Device2\\WB_WORK.txt";
+		public static String Device2OGGroups=CommonUrl+"//Device2//OG.txt";
+		public static String Device2DualOGGroups=CommonUrl+"//Device2//OG_DUAL.txt";
+		public static String Device2WorkOGGroups=CommonUrl+"//Device2//OG_WORK.txt";
 		
 		
 
-		public static String Device2YOGroups=CommonUrl+"\\Device2\\YO.txt";
-		public static String Device2DualYOGroups=CommonUrl+"\\Device2\\YO_DUAL.txt";
-		public static String Device2WorkYOGroups=CommonUrl+"\\Device2\\YO_WORK.txt";
+		public static String Device2WAGroups=CommonUrl+"//Device2//WA.txt";
+		public static String Device2DualWAGroups=CommonUrl+"//Device2//WA_DUAL.txt";
+		public static String Device2WorkWAGroups=CommonUrl+"//Device2//WA_WORK.txt";
+		
+
+
+		public static String Device2WBGroups=CommonUrl+"//Device2//WB.txt";
+		public static String Device2DualWBGroups=CommonUrl+"//Device2//WB_DUAL.txt";
+		public static String Device2WorkWBGroups=CommonUrl+"//Device2//WB_WORK.txt";
+		
+		
+
+		public static String Device2YOGroups=CommonUrl+"//Device2//YO.txt";
+		public static String Device2DualYOGroups=CommonUrl+"//Device2//YO_DUAL.txt";
+		public static String Device2WorkYOGroups=CommonUrl+"//Device2//YO_WORK.txt";
 		
 		
 		
 		//Device3
 		
-		public static String Device3FMGroups=CommonUrl+"\\Device3\\FM.txt";
-		public static String Device3DualFMGroups=CommonUrl+"\\Device3\\FM_DUAL.txt";
-		public static String Device3WorkFMGroups=CommonUrl+"\\Device3\\FM_WORK.txt";
+		public static String Device3FMGroups=CommonUrl+"//Device3//FM.txt";
+		public static String Device3DualFMGroups=CommonUrl+"//Device3//FM_DUAL.txt";
+		public static String Device3WorkFMGroups=CommonUrl+"//Device3//FM_WORK.txt";
 
 		
 		
-		public static String Device3GBGroups=CommonUrl+"\\Device3\\GB.txt";
-		public static String Device3DualGBGroups=CommonUrl+"\\Device3\\GB_DUAL.txt";
-		public static String Device3WorkGBGroups=CommonUrl+"\\Device3\\GB_WORK.txt";
+		public static String Device3GBGroups=CommonUrl+"//Device3//GB.txt";
+		public static String Device3DualGBGroups=CommonUrl+"//Device3//GB_DUAL.txt";
+		public static String Device3WorkGBGroups=CommonUrl+"//Device3//GB_WORK.txt";
 
 		
 
-		public static String Device3AEROGroups=CommonUrl+"\\Device3\\AERO.txt";
-		public static String Device3DualAEROGroups=CommonUrl+"\\Device3\\AERO_DUAL.txt";
-		public static String Device3WorkAEROGroups=CommonUrl+"\\Device3\\AERO_WORK.txt";
+		public static String Device3AEROGroups=CommonUrl+"//Device3//AERO.txt";
+		public static String Device3DualAEROGroups=CommonUrl+"//Device3//AERO_DUAL.txt";
+		public static String Device3WorkAEROGroups=CommonUrl+"//Device3//AERO_WORK.txt";
 		
 
-		public static String Device3OGGroups=CommonUrl+"\\Device3\\OG.txt";
-		public static String Device3DualOGGroups=CommonUrl+"\\Device3\\OG_DUAL.txt";
-		public static String Device3WorkOGGroups=CommonUrl+"\\Device3\\OG_WORK.txt";
-		
-		
-
-		public static String Device3WAGroups=CommonUrl+"\\Device3\\WA.txt";
-		public static String Device3DualWAGroups=CommonUrl+"\\Device3\\WA_DUAL.txt";
-		public static String Device3WorkWAGroups=CommonUrl+"\\Device3\\WA_WORK.txt";
-		
-
-
-		public static String Device3WBGroups=CommonUrl+"\\Device3\\WB.txt";
-		public static String Device3DualWBGroups=CommonUrl+"\\Device3\\WB_DUAL.txt";
-		public static String Device3WorkWBGroups=CommonUrl+"\\Device3\\WB_WORK.txt";
+		public static String Device3OGGroups=CommonUrl+"//Device3//OG.txt";
+		public static String Device3DualOGGroups=CommonUrl+"//Device3//OG_DUAL.txt";
+		public static String Device3WorkOGGroups=CommonUrl+"//Device3//OG_WORK.txt";
 		
 		
 
-		public static String Device3YOGroups=CommonUrl+"\\Device3\\YO.txt";
-		public static String Device3DualYOGroups=CommonUrl+"\\Device3\\YO_DUAL.txt";
-		public static String Device3WorkYOGroups=CommonUrl+"\\Device3\\YO_WORK.txt";
+		public static String Device3WAGroups=CommonUrl+"//Device3//WA.txt";
+		public static String Device3DualWAGroups=CommonUrl+"//Device3//WA_DUAL.txt";
+		public static String Device3WorkWAGroups=CommonUrl+"//Device3//WA_WORK.txt";
+		
+
+
+		public static String Device3WBGroups=CommonUrl+"//Device3//WB.txt";
+		public static String Device3DualWBGroups=CommonUrl+"//Device3//WB_DUAL.txt";
+		public static String Device3WorkWBGroups=CommonUrl+"//Device3//WB_WORK.txt";
+		
+		
+
+		public static String Device3YOGroups=CommonUrl+"//Device3//YO.txt";
+		public static String Device3DualYOGroups=CommonUrl+"//Device3//YO_DUAL.txt";
+		public static String Device3WorkYOGroups=CommonUrl+"//Device3//YO_WORK.txt";
 		
 			
 		
 			//Device4
 		
-		public static String Device4FMGroups=CommonUrl+"\\Device4\\FM.txt";
-		public static String Device4DualFMGroups=CommonUrl+"\\Device4\\FM_DUAL.txt";
-		public static String Device4WorkFMGroups=CommonUrl+"\\Device4\\FM_WORK.txt";
+		public static String Device4FMGroups=CommonUrl+"//Device4//FM.txt";
+		public static String Device4DualFMGroups=CommonUrl+"//Device4//FM_DUAL.txt";
+		public static String Device4WorkFMGroups=CommonUrl+"//Device4//FM_WORK.txt";
 
 		
 		
-		public static String Device4GBGroups=CommonUrl+"\\Device4\\GB.txt";
-		public static String Device4DualGBGroups=CommonUrl+"\\Device4\\GB_DUAL.txt";
-		public static String Device4WorkGBGroups=CommonUrl+"\\Device4\\GB_WORK.txt";
+		public static String Device4GBGroups=CommonUrl+"//Device4//GB.txt";
+		public static String Device4DualGBGroups=CommonUrl+"//Device4//GB_DUAL.txt";
+		public static String Device4WorkGBGroups=CommonUrl+"//Device4//GB_WORK.txt";
 
 		
 
-		public static String Device4AEROGroups=CommonUrl+"\\Device4\\AERO.txt";
-		public static String Device4DualAEROGroups=CommonUrl+"\\Device4\\AERO_DUAL.txt";
-		public static String Device4WorkAEROGroups=CommonUrl+"\\Device4\\AERO_WORK.txt";
+		public static String Device4AEROGroups=CommonUrl+"//Device4//AERO.txt";
+		public static String Device4DualAEROGroups=CommonUrl+"//Device4//AERO_DUAL.txt";
+		public static String Device4WorkAEROGroups=CommonUrl+"//Device4//AERO_WORK.txt";
 		
 
-		public static String Device4OGGroups=CommonUrl+"\\Device4\\OG.txt";
-		public static String Device4DualOGGroups=CommonUrl+"\\Device4\\OG_DUAL.txt";
-		public static String Device4WorkOGGroups=CommonUrl+"\\Device4\\OG_WORK.txt";
-		
-		
-
-		public static String Device4WAGroups=CommonUrl+"\\Device4\\WA.txt";
-		public static String Device4DualWAGroups=CommonUrl+"\\Device4\\WA_DUAL.txt";
-		public static String Device4WorkWAGroups=CommonUrl+"\\Device4\\WA_WORK.txt";
-		
-
-
-		public static String Device4WBGroups=CommonUrl+"\\Device4\\WB.txt";
-		public static String Device4DualWBGroups=CommonUrl+"\\Device4\\WB_DUAL.txt";
-		public static String Device4WorkWBGroups=CommonUrl+"\\Device4\\WB_WORK.txt";
+		public static String Device4OGGroups=CommonUrl+"//Device4//OG.txt";
+		public static String Device4DualOGGroups=CommonUrl+"//Device4//OG_DUAL.txt";
+		public static String Device4WorkOGGroups=CommonUrl+"//Device4//OG_WORK.txt";
 		
 		
 
-		public static String Device4YOGroups=CommonUrl+"\\Device4\\YO.txt";
-		public static String Device4DualYOGroups=CommonUrl+"\\Device4\\YO_DUAL.txt";
-		public static String Device4WorkYOGroups=CommonUrl+"\\Device4\\YO_WORK.txt";
+		public static String Device4WAGroups=CommonUrl+"//Device4//WA.txt";
+		public static String Device4DualWAGroups=CommonUrl+"//Device4//WA_DUAL.txt";
+		public static String Device4WorkWAGroups=CommonUrl+"//Device4//WA_WORK.txt";
+		
+
+
+		public static String Device4WBGroups=CommonUrl+"//Device4//WB.txt";
+		public static String Device4DualWBGroups=CommonUrl+"//Device4//WB_DUAL.txt";
+		public static String Device4WorkWBGroups=CommonUrl+"//Device4//WB_WORK.txt";
+		
+		
+
+		public static String Device4YOGroups=CommonUrl+"//Device4//YO.txt";
+		public static String Device4DualYOGroups=CommonUrl+"//Device4//YO_DUAL.txt";
+		public static String Device4WorkYOGroups=CommonUrl+"//Device4//YO_WORK.txt";
 		
 		
 		
 		//Device5
 		
-		public static String Device5FMGroups=CommonUrl+"\\Device5\\FM.txt";
-		public static String Device5DualFMGroups=CommonUrl+"\\Device5\\FM_DUAL.txt";
-		public static String Device5WorkFMGroups=CommonUrl+"\\Device5\\FM_WORK.txt";
+		public static String Device5FMGroups=CommonUrl+"//Device5//FM.txt";
+		public static String Device5DualFMGroups=CommonUrl+"//Device5//FM_DUAL.txt";
+		public static String Device5WorkFMGroups=CommonUrl+"//Device5//FM_WORK.txt";
 
 		
 		
-		public static String Device5GBGroups=CommonUrl+"\\Device5\\GB.txt";
-		public static String Device5DualGBGroups=CommonUrl+"\\Device5\\GB_DUAL.txt";
-		public static String Device5WorkGBGroups=CommonUrl+"\\Device5\\GB_WORK.txt";
+		public static String Device5GBGroups=CommonUrl+"//Device5//GB.txt";
+		public static String Device5DualGBGroups=CommonUrl+"//Device5//GB_DUAL.txt";
+		public static String Device5WorkGBGroups=CommonUrl+"//Device5//GB_WORK.txt";
 
 		
 
-		public static String Device5AEROGroups=CommonUrl+"\\Device5\\AERO.txt";
-		public static String Device5DualAEROGroups=CommonUrl+"\\Device5\\AERO_DUAL.txt";
-		public static String Device5WorkAEROGroups=CommonUrl+"\\Device5\\AERO_WORK.txt";
+		public static String Device5AEROGroups=CommonUrl+"//Device5//AERO.txt";
+		public static String Device5DualAEROGroups=CommonUrl+"//Device5//AERO_DUAL.txt";
+		public static String Device5WorkAEROGroups=CommonUrl+"//Device5//AERO_WORK.txt";
 		
 
-		public static String Device5OGGroups=CommonUrl+"\\Device5\\OG.txt";
-		public static String Device5DualOGGroups=CommonUrl+"\\Device5\\OG_DUAL.txt";
-		public static String Device5WorkOGGroups=CommonUrl+"\\Device5\\OG_WORK.txt";
-		
-		
-
-		public static String Device5WAGroups=CommonUrl+"\\Device5\\WA.txt";
-		public static String Device5DualWAGroups=CommonUrl+"\\Device5\\WA_DUAL.txt";
-		public static String Device5WorkWAGroups=CommonUrl+"\\Device5\\WA_WORK.txt";
-		
-
-
-		public static String Device5WBGroups=CommonUrl+"\\Device5\\WB.txt";
-		public static String Device5DualWBGroups=CommonUrl+"\\Device5\\WB_DUAL.txt";
-		public static String Device5WorkWBGroups=CommonUrl+"\\Device5\\WB_WORK.txt";
+		public static String Device5OGGroups=CommonUrl+"//Device5//OG.txt";
+		public static String Device5DualOGGroups=CommonUrl+"//Device5//OG_DUAL.txt";
+		public static String Device5WorkOGGroups=CommonUrl+"//Device5//OG_WORK.txt";
 		
 		
 
-		public static String Device5YOGroups=CommonUrl+"\\Device5\\YO.txt";
-		public static String Device5DualYOGroups=CommonUrl+"\\Device5\\YO_DUAL.txt";
-		public static String Device5WorkYOGroups=CommonUrl+"\\Device5\\YO_WORK.txt";
+		public static String Device5WAGroups=CommonUrl+"//Device5//WA.txt";
+		public static String Device5DualWAGroups=CommonUrl+"//Device5//WA_DUAL.txt";
+		public static String Device5WorkWAGroups=CommonUrl+"//Device5//WA_WORK.txt";
+		
+
+
+		public static String Device5WBGroups=CommonUrl+"//Device5//WB.txt";
+		public static String Device5DualWBGroups=CommonUrl+"//Device5//WB_DUAL.txt";
+		public static String Device5WorkWBGroups=CommonUrl+"//Device5//WB_WORK.txt";
+		
+		
+
+		public static String Device5YOGroups=CommonUrl+"//Device5//YO.txt";
+		public static String Device5DualYOGroups=CommonUrl+"//Device5//YO_DUAL.txt";
+		public static String Device5WorkYOGroups=CommonUrl+"//Device5//YO_WORK.txt";
 		
 		
 		
 		
 		//Device6
 		
-		public static String Device6FMGroups=CommonUrl+"\\Device6\\FM.txt";
-		public static String Device6DualFMGroups=CommonUrl+"\\Device6\\FM_DUAL.txt";
-		public static String Device6WorkFMGroups=CommonUrl+"\\Device6\\FM_WORK.txt";
+		public static String Device6FMGroups=CommonUrl+"//Device6//FM.txt";
+		public static String Device6DualFMGroups=CommonUrl+"//Device6//FM_DUAL.txt";
+		public static String Device6WorkFMGroups=CommonUrl+"//Device6//FM_WORK.txt";
 
 		
 		
-		public static String Device6GBGroups=CommonUrl+"\\Device6\\GB.txt";
-		public static String Device6DualGBGroups=CommonUrl+"\\Device6\\GB_DUAL.txt";
-		public static String Device6WorkGBGroups=CommonUrl+"\\Device6\\GB_WORK.txt";
+		public static String Device6GBGroups=CommonUrl+"//Device6//GB.txt";
+		public static String Device6DualGBGroups=CommonUrl+"//Device6//GB_DUAL.txt";
+		public static String Device6WorkGBGroups=CommonUrl+"//Device6//GB_WORK.txt";
 
 		
 
-		public static String Device6AEROGroups=CommonUrl+"\\Device6\\AERO.txt";
-		public static String Device6DualAEROGroups=CommonUrl+"\\Device6\\AERO_DUAL.txt";
-		public static String Device6WorkAEROGroups=CommonUrl+"\\Device6\\AERO_WORK.txt";
+		public static String Device6AEROGroups=CommonUrl+"//Device6//AERO.txt";
+		public static String Device6DualAEROGroups=CommonUrl+"//Device6//AERO_DUAL.txt";
+		public static String Device6WorkAEROGroups=CommonUrl+"//Device6//AERO_WORK.txt";
 		
 
-		public static String Device6OGGroups=CommonUrl+"\\Device6\\OG.txt";
-		public static String Device6DualOGGroups=CommonUrl+"\\Device6\\OG_DUAL.txt";
-		public static String Device6WorkOGGroups=CommonUrl+"\\Device6\\OG_WORK.txt";
-		
-		
-
-		public static String Device6WAGroups=CommonUrl+"\\Device6\\WA.txt";
-		public static String Device6DualWAGroups=CommonUrl+"\\Device6\\WA_DUAL.txt";
-		public static String Device6WorkWAGroups=CommonUrl+"\\Device6\\WA_WORK.txt";
-		
-
-
-		public static String Device6WBGroups=CommonUrl+"\\Device6\\WB.txt";
-		public static String Device6DualWBGroups=CommonUrl+"\\Device6\\WB_DUAL.txt";
-		public static String Device6WorkWBGroups=CommonUrl+"\\Device6\\WB_WORK.txt";
+		public static String Device6OGGroups=CommonUrl+"//Device6//OG.txt";
+		public static String Device6DualOGGroups=CommonUrl+"//Device6//OG_DUAL.txt";
+		public static String Device6WorkOGGroups=CommonUrl+"//Device6//OG_WORK.txt";
 		
 		
 
-		public static String Device6YOGroups=CommonUrl+"\\Device6\\YO.txt";
-		public static String Device6DualYOGroups=CommonUrl+"\\Device6\\YO_DUAL.txt";
-		public static String Device6WorkYOGroups=CommonUrl+"\\Device6\\YO_WORK.txt";
+		public static String Device6WAGroups=CommonUrl+"//Device6//WA.txt";
+		public static String Device6DualWAGroups=CommonUrl+"//Device6//WA_DUAL.txt";
+		public static String Device6WorkWAGroups=CommonUrl+"//Device6//WA_WORK.txt";
+		
+
+
+		public static String Device6WBGroups=CommonUrl+"//Device6//WB.txt";
+		public static String Device6DualWBGroups=CommonUrl+"//Device6//WB_DUAL.txt";
+		public static String Device6WorkWBGroups=CommonUrl+"//Device6//WB_WORK.txt";
+		
+		
+
+		public static String Device6YOGroups=CommonUrl+"//Device6//YO.txt";
+		public static String Device6DualYOGroups=CommonUrl+"//Device6//YO_DUAL.txt";
+		public static String Device6WorkYOGroups=CommonUrl+"//Device6//YO_WORK.txt";
 		
 		
 		//ChromeProfilePaths
