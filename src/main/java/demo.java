@@ -1,3 +1,6 @@
+import java.awt.Toolkit;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.StringSelection;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -21,7 +24,11 @@ public class demo {
 		
 	String message=MessageSetter.pickRandomMessage(StringResources.MessagesFolder);
 		System.out.println(message);	
+		
+		
 			//
 	}
 
 }
+
+
