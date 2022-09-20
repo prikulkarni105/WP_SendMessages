@@ -19,7 +19,7 @@ public class Device1Tests {
 	@Test
 	public void demoTest() throws FileNotFoundException {
 		
-		int i=GetChatlist.getChatListFromLocalFile("C:\\Users\\Administrator\\.jenkins\\workspace\\Whatsapp_SendMessage//GroupNames//Device1//FM.txt").size();
+		int i=GetChatlist.getChatListFromLocalFile("C://GroupNames//Device1//FM.txt").size();
 	System.out.println(i);
 	System.out.println(StringResources.Device1FMGroups);//
 	}
