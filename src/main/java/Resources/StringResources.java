@@ -268,7 +268,7 @@ package Resources;
 		//GroupNamePaths
 		
 		
-		public static String CommonUrl=System.getProperty("user.dir")+"\\GroupNames\\";
+		public static String CommonUrl=System.getProperty("user.dir")+"\\GroupNames";
 		
 		
 		//Device1
