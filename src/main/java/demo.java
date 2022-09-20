@@ -21,6 +21,7 @@ public class demo {
 	
 			int i=GetChatlist.getChatListFromLocalFile("C:\\Users\\Administrator\\.jenkins\\workspace\\Whatsapp_SendMessage//GroupNames//Device1//FM.txt").size();
 			System.out.println(i);
+			//
 	}
 
 }
