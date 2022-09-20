@@ -29,6 +29,7 @@ public class SendLogic {
 		System.out.println("************* Size**************");
 
 		System.out.println(groupNameUrl);
+		
 		System.out.println("************* URL**************");
 
 		int i=1;
