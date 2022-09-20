@@ -16,35 +16,20 @@ public class SendLogic {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
 		driver.manage().window().maximize();
 		
-		//String expectedUrl = "";
-		//demo
 		
-		/*
-		if (NetworkManager.netIsAvailable()==false)
-		{
-			//logic to give a error message to user
-	
-		}
-		
-		if (LoginValidation.validateUrl(driver, expectedUrl)==false) 
-		{
-			//logic to nevigate to expected url
-		}
-		
-		if (LoginValidation.checkLLogin(driver)==false) 
-		{
-			//logic to handle loggedout sessions
-		}
-		*/
 		msend.waitUnitlChatListLoaded(driver);
 		
-		ArrayList<String> chatnames=GetChatlist.getChatListFromLocalFile(groupNameUrl);
 		
+		System.out.println("************* I am before file**************");
+		ArrayList<String> chatnames=GetChatlist.getChatListFromLocalFile(groupNameUrl);
+		System.out.println("************* I am after file**************");
+
 		int i=1;
 	
 		for (String string : chatnames)
 		{
-			
+			System.out.println("************* I am in the loop**************");
+
 			try 
 			{
 				if(i%5==0)
@@ -75,8 +60,12 @@ public class SendLogic {
 			
 		}
 	   //To close your driver
-	//  DriverManager.tearDown(driver);
 		
+		System.out.println("************* Clsing**************");
+
+	  DriverManager.tearDown(driver);
+		System.out.println("************* Closed**************");
+
 	}
 	
 	
