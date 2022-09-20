@@ -17,6 +17,7 @@ public class SendLogic {
 		driver.manage().window().maximize();
 		
 		//String expectedUrl = "";
+		//demo
 		
 		/*
 		if (NetworkManager.netIsAvailable()==false)
