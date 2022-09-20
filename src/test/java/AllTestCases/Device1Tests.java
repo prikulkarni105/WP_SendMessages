@@ -21,6 +21,7 @@ public class Device1Tests {
 		
 		int i=GetChatlist.getChatListFromLocalFile(StringResources.Device1FMGroups).size();
 	System.out.println(i);
+	System.out.println(StringResources.Device1FMGroups);
 	}
 	
 	//FM WhatsApp Tests
