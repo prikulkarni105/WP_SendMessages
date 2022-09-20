@@ -23,7 +23,7 @@ public class SendLogic {
 		System.out.println("************* I am before file**************");
 		ArrayList<String> chatnames=null;
 		try {
-		 chatnames=GetChatlist.getChatListFromLocalFile(groupNameUrl);
+		 chatnames=GetChatlist.getChatListFromURL(groupNameUrl);
 		}
 		catch(Exception e) {
 			System.out.println(e.getLocalizedMessage());

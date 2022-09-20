@@ -268,13 +268,13 @@ package Resources;
 		//GroupNamePaths
 		
 		
-		//public static String CommonUrl=System.getProperty("user.dir")+"\\GroupNames";
+		public static String CommonUrl=System.getProperty("user.dir")+"//GroupNames";
 		
-		public static String CommonUrl="c:\\GroupNames";
+		//public static String CommonUrl="c:\\GroupNames";
 
 		//Device1
 		
-		public static String Device1FMGroups=CommonUrl+"\\Device1\\FM.txt";
+		public static String Device1FMGroups=CommonUrl+"//Device1//FM.txt";
 		public static String Device1DualFMGroups=CommonUrl+"\\Device1\\FM_DUAL.txt";
 		public static String Device1WorkFMGroups=CommonUrl+"\\Device1\\FM_WORK.txt";
 

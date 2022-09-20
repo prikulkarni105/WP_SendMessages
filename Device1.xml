@@ -3,7 +3,16 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="AllTestCases.Device1Tests"/>
+      <class name="AllTestCases.Device1Tests">
+      	
+      	<methods>
+      	
+      		<include name="demoTest"></include>
+      	
+      	</methods>
+      	
+      
+      </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

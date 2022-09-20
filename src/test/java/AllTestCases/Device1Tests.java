@@ -8,10 +8,21 @@ import org.testng.annotations.Test;
 import Project1.Mini_Project.SendLogic;
 import Resources.StringResources;
 import Project1.Mini_Project.DriverManager;
+import Project1.Mini_Project.GetChatlist;
 import Project1.Mini_Project.PageObjects;
 
 public class Device1Tests {
 
+	
+	//Demotest
+	
+	@Test
+	public void demoTest() throws FileNotFoundException {
+		
+		int i=GetChatlist.getChatListFromLocalFile(StringResources.Device1FMGroups).size();
+	System.out.println(i);
+	}
+	
 	//FM WhatsApp Tests
 	//karto hara change
 		@Test(enabled = true, priority=1)

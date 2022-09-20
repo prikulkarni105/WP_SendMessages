@@ -27,7 +27,7 @@ public class GetChatlist {
 		}
 	
 	//This method returns list of string from remote url
-	public ArrayList<String> getChatListFromURL(String remoteFileUrl) throws IOException
+	public static ArrayList<String> getChatListFromURL(String remoteFileUrl) throws IOException
 		{
 			  URL fileurl = new URL(remoteFileUrl);
 			  BufferedReader br = new BufferedReader(new InputStreamReader(fileurl.openStream()));
