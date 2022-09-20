@@ -7,6 +7,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import Project1.Mini_Project.GetChatlist;
 import Resources.StringResources;
 
 public class demo {
@@ -16,20 +17,10 @@ public class demo {
 
 		//This method returns list of string from local file
 
-		URL fileurl = new URL(StringResources.Device1FMGroups);
-
-		File localfile=new File(fileurl.getFile());
-		Scanner sc=new Scanner(localfile);
-		ArrayList<String> chatlist=new ArrayList<String>();
-			while (sc.hasNext()) 
-			{
-				chatlist.add(sc.nextLine());
-			}
 		
-			
-		
-			System.out.println(chatlist.size());
 	
+			int i=GetChatlist.getChatListFromLocalFile("C:\\Users\\Administrator\\.jenkins\\workspace\\Whatsapp_SendMessage//GroupNames//Device1//FM.txt").size();
+			System.out.println(i);
 	}
 
 }
