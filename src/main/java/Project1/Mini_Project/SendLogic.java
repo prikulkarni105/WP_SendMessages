@@ -13,9 +13,12 @@ public class SendLogic {
 	public void sendTextMessage(WebDriver driver, String groupNameUrl ) throws InterruptedException, FileNotFoundException
 	{
 		PageObjects msend=new PageObjects();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));	
-		String expectedUrl = "";
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
+		driver.manage().window().maximize();
 		
+		//String expectedUrl = "";
+		
+		/*
 		if (NetworkManager.netIsAvailable()==false)
 		{
 			//logic to give a error message to user
@@ -31,7 +34,7 @@ public class SendLogic {
 		{
 			//logic to handle loggedout sessions
 		}
-		
+		*/
 		msend.waitUnitlChatListLoaded(driver);
 		
 		ArrayList<String> chatnames=GetChatlist.getChatListFromLocalFile(groupNameUrl);
@@ -50,17 +53,19 @@ public class SendLogic {
 				i++;
 				
 		        msend.chatListSearch(driver).click();
-		        Thread.sleep(2000);
+		        Thread.sleep(1000);
 		        msend.chatListSearch(driver).clear();
-		        Thread.sleep(3000);
+		        Thread.sleep(1000);
 	            msend.chatListSearch(driver).sendKeys(string);
-	    	    Thread.sleep(3000);
+	    	    Thread.sleep(1000);
 	    	    msend.matchedText(driver).click();
-	    	    Thread.sleep(2000);
+	    	    Thread.sleep(1000);
 	    	    msend.sendmessage(driver);
+	    	    Thread.sleep(1000);
+	    	    msend.sendButton(driver).click();
 	    	    Thread.sleep(2000);
-	    	   // msend.sendButton(driver).click();
-	    	    Thread.sleep(2000);
+	    	    
+	    	    
 			}
 			catch (Exception e) 
 			{
