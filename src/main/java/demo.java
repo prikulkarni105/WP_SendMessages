@@ -15,8 +15,7 @@ public class demo {
 	public static void main(String[] args) throws FileNotFoundException, MalformedURLException {
 		// TODO Auto-generated method stub
 
-		//This method returns list of string from local file
-
+		//This method returns list of string from local file//demo added
 		
 	
 			int i=GetChatlist.getChatListFromLocalFile("C:\\Users\\Administrator\\.jenkins\\workspace\\Whatsapp_SendMessage//GroupNames//Device1//FM.txt").size();
