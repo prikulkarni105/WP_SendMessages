@@ -4,6 +4,7 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -50,7 +51,7 @@ public class PageObjects {
 		
 
 		//Copy Message to clipboard
-		public void sendmessage(WebDriver driver) throws FileNotFoundException
+		public void sendmessage(WebDriver driver) throws IOException
 		{
 			String message=MessageSetter.pickRandomMessage(StringResources.MessagesFolder);
 			//Copytoclipboard

@@ -1,7 +1,13 @@
 package Project1.Mini_Project;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -9,7 +15,7 @@ public class MessageSetter {
 
 	
 
-	public static String pickRandomMessage(String messageFolder) throws FileNotFoundException
+	public static String pickRandomMessage(String messageFolder) throws IOException
 	{
 		Random rd=new Random();
 		String messagefile[]=new String[5];
@@ -27,6 +33,8 @@ public class MessageSetter {
 	    
 	    String filepath=path+messagefile[random];
 	    
+	    
+	    /* THis is for local filesystem
 	    File randomfile=new File(filepath);
 	    Scanner sc=new Scanner(randomfile);
 	    String message="";
@@ -37,6 +45,22 @@ public class MessageSetter {
 			}
 			sc.close();
 			return message;
-}
+			*/
+	    
+	      URL fileurl = new URL(filepath);
+		  BufferedReader br = new BufferedReader(new InputStreamReader(fileurl.openStream()));
+		  String inputline;
+
+		  String message="";
+			   while ((inputline = br.readLine()) != null)
+			     	{
+			    	message=message+"\n"+inputline;
+
+			     	}
+	 
+		 return message;
+	    
+	    
+		}
 	
 }
