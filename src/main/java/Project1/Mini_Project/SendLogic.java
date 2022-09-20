@@ -24,6 +24,13 @@ public class SendLogic {
 		ArrayList<String> chatnames=GetChatlist.getChatListFromLocalFile(groupNameUrl);
 		System.out.println("************* I am after file**************");
 
+		System.out.println(chatnames.size());
+		
+		System.out.println("************* Size**************");
+
+		System.out.println(groupNameUrl);
+		System.out.println("************* URL**************");
+
 		int i=1;
 	
 		for (String string : chatnames)
