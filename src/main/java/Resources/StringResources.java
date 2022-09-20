@@ -3,7 +3,7 @@ package Resources;
  public class StringResources {
 		
 	 	public	static String Url="https://web.whatsapp.com/";
-	 	public	static String browserName="firefox";
+	 	public	static String browserName="chrome";
 	 	
 	 	
 		public static String MessagesFolder=System.getProperty("user.dir")+"/Messages/";
@@ -528,7 +528,268 @@ package Resources;
 		public static String Device6WorkYOGroups=CommonUrl+"/Device6/YO_WORK.txt";
 		
 		
+		//ChromeProfilePaths
 		
+	 	public static String chromeProfileCommonPath="c://ChromeProfiles/";
+		
+		
+		//Device1
+		
+		public static String Device1FMChromeProfile=chromeProfileCommonPath+"/Device1/FM/";
+		public static String Device1DualFMChromeProfile=chromeProfileCommonPath+"/Device1/FM_DUAL/";
+		public static String Device1WorkFMChromeProfile=chromeProfileCommonPath+"/Device1/FM_WORK/";
+
+		
+		
+		public static String Device1GBChromeProfile=chromeProfileCommonPath+"/Device1/GB/";
+		public static String Device1DualGBChromeProfile=chromeProfileCommonPath+"/Device1/GB_DUAL/";
+		public static String Device1WorkGBChromeProfile=chromeProfileCommonPath+"/Device1/GB_WORK/";
+
+		
+
+		public static String Device1AEROChromeProfile=chromeProfileCommonPath+"/Device1/AERO/";
+		public static String Device1DualAEROChromeProfile=chromeProfileCommonPath+"/Device1/AERO_DUAL/";
+		public static String Device1WorkAEROChromeProfile=chromeProfileCommonPath+"/Device1/AERO_WORK/";
+		
+
+		public static String Device1OGChromeProfile=chromeProfileCommonPath+"/Device1/OG/";
+		public static String Device1DualOGChromeProfile=chromeProfileCommonPath+"/Device1/OG_DUAL/";
+		public static String Device1WorkOGChromeProfile=chromeProfileCommonPath+"/Device1/OG_WORK/";
+		
+		
+
+		public static String Device1WAChromeProfile=chromeProfileCommonPath+"/Device1/WA/";
+		public static String Device1DualWAChromeProfile=chromeProfileCommonPath+"/Device1/WA_DUAL/";
+		public static String Device1WorkWAChromeProfile=chromeProfileCommonPath+"/Device1/WA_WORK/";
+		
+
+
+		public static String Device1WBChromeProfile=chromeProfileCommonPath+"/Device1/WB/";
+		public static String Device1DualWBChromeProfile=chromeProfileCommonPath+"/Device1/WB_DUAL/";
+		public static String Device1WorkWBChromeProfile=chromeProfileCommonPath+"/Device1/WB_WORK/";
+		
+		
+
+		public static String Device1YOChromeProfile=chromeProfileCommonPath+"/Device1/YO/";
+		public static String Device1DualYOChromeProfile=chromeProfileCommonPath+"/Device1/YO_DUAL/";
+		public static String Device1WorkYOChromeProfile=chromeProfileCommonPath+"/Device1/YO_WORK/";
+		
+		
+		//Device2
+		
+		public static String Device2FMChromeProfile=chromeProfileCommonPath+"/Device2/FM/";
+		public static String Device2DualFMChromeProfile=chromeProfileCommonPath+"/Device2/FM_DUAL/";
+		public static String Device2WorkFMChromeProfile=chromeProfileCommonPath+"/Device2/FM_WORK/";
+
+		
+		
+		public static String Device2GBChromeProfile=chromeProfileCommonPath+"/Device2/GB/";
+		public static String Device2DualGBChromeProfile=chromeProfileCommonPath+"/Device2/GB_DUAL/";
+		public static String Device2WorkGBChromeProfile=chromeProfileCommonPath+"/Device2/GB_WORK/";
+
+		
+
+		public static String Device2AEROChromeProfile=chromeProfileCommonPath+"/Device2/AERO/";
+		public static String Device2DualAEROChromeProfile=chromeProfileCommonPath+"/Device2/AERO_DUAL/";
+		public static String Device2WorkAEROChromeProfile=chromeProfileCommonPath+"/Device2/AERO_WORK/";
+		
+
+		public static String Device2OGChromeProfile=chromeProfileCommonPath+"/Device2/OG/";
+		public static String Device2DualOGChromeProfile=chromeProfileCommonPath+"/Device2/OG_DUAL/";
+		public static String Device2WorkOGChromeProfile=chromeProfileCommonPath+"/Device2/OG_WORK/";
+		
+		
+
+		public static String Device2WAChromeProfile=chromeProfileCommonPath+"/Device2/WA/";
+		public static String Device2DualWAChromeProfile=chromeProfileCommonPath+"/Device2/WA_DUAL/";
+		public static String Device2WorkWAChromeProfile=chromeProfileCommonPath+"/Device2/WA_WORK/";
+		
+
+
+		public static String Device2WBChromeProfile=chromeProfileCommonPath+"/Device2/WB/";
+		public static String Device2DualWBChromeProfile=chromeProfileCommonPath+"/Device2/WB_DUAL/";
+		public static String Device2WorkWBChromeProfile=chromeProfileCommonPath+"/Device2/WB_WORK/";
+		
+		
+
+		public static String Device2YOChromeProfile=chromeProfileCommonPath+"/Device2/YO/";
+		public static String Device2DualYOChromeProfile=chromeProfileCommonPath+"/Device2/YO_DUAL/";
+		public static String Device2WorkYOChromeProfile=chromeProfileCommonPath+"/Device2/YO_WORK/";
+		
+		
+		
+		//Device3
+		
+		public static String Device3FMChromeProfile=chromeProfileCommonPath+"/Device3/FM/";
+		public static String Device3DualFMChromeProfile=chromeProfileCommonPath+"/Device3/FM_DUAL/";
+		public static String Device3WorkFMChromeProfile=chromeProfileCommonPath+"/Device3/FM_WORK/";
+
+		
+		
+		public static String Device3GBChromeProfile=chromeProfileCommonPath+"/Device3/GB/";
+		public static String Device3DualGBChromeProfile=chromeProfileCommonPath+"/Device3/GB_DUAL/";
+		public static String Device3WorkGBChromeProfile=chromeProfileCommonPath+"/Device3/GB_WORK/";
+
+		
+
+		public static String Device3AEROChromeProfile=chromeProfileCommonPath+"/Device3/AERO/";
+		public static String Device3DualAEROChromeProfile=chromeProfileCommonPath+"/Device3/AERO_DUAL/";
+		public static String Device3WorkAEROChromeProfile=chromeProfileCommonPath+"/Device3/AERO_WORK/";
+		
+
+		public static String Device3OGChromeProfile=chromeProfileCommonPath+"/Device3/OG/";
+		public static String Device3DualOGChromeProfile=chromeProfileCommonPath+"/Device3/OG_DUAL/";
+		public static String Device3WorkOGChromeProfile=chromeProfileCommonPath+"/Device3/OG_WORK/";
+		
+		
+
+		public static String Device3WAChromeProfile=chromeProfileCommonPath+"/Device3/WA/";
+		public static String Device3DualWAChromeProfile=chromeProfileCommonPath+"/Device3/WA_DUAL/";
+		public static String Device3WorkWAChromeProfile=chromeProfileCommonPath+"/Device3/WA_WORK/";
+		
+
+
+		public static String Device3WBChromeProfile=chromeProfileCommonPath+"/Device3/WB/";
+		public static String Device3DualWBChromeProfile=chromeProfileCommonPath+"/Device3/WB_DUAL/";
+		public static String Device3WorkWBChromeProfile=chromeProfileCommonPath+"/Device3/WB_WORK/";
+		
+		
+
+		public static String Device3YOChromeProfile=chromeProfileCommonPath+"/Device3/YO/";
+		public static String Device3DualYOChromeProfile=chromeProfileCommonPath+"/Device3/YO_DUAL/";
+		public static String Device3WorkYOChromeProfile=chromeProfileCommonPath+"/Device3/YO_WORK/";
+		
+			
+		
+		//Device4
+		
+		public static String Device4FMChromeProfile=chromeProfileCommonPath+"/Device4/FM/";
+		public static String Device4DualFMChromeProfile=chromeProfileCommonPath+"/Device4/FM_DUAL/";
+		public static String Device4WorkFMChromeProfile=chromeProfileCommonPath+"/Device4/FM_WORK/";
+
+		
+		
+		public static String Device4GBChromeProfile=chromeProfileCommonPath+"/Device4/GB/";
+		public static String Device4DualGBChromeProfile=chromeProfileCommonPath+"/Device4/GB_DUAL/";
+		public static String Device4WorkGBChromeProfile=chromeProfileCommonPath+"/Device4/GB_WORK/";
+
+		
+
+		public static String Device4AEROChromeProfile=chromeProfileCommonPath+"/Device4/AERO/";
+		public static String Device4DualAEROChromeProfile=chromeProfileCommonPath+"/Device4/AERO_DUAL/";
+		public static String Device4WorkAEROChromeProfile=chromeProfileCommonPath+"/Device4/AERO_WORK/";
+		
+
+		public static String Device4OGChromeProfile=chromeProfileCommonPath+"/Device4/OG/";
+		public static String Device4DualOGChromeProfile=chromeProfileCommonPath+"/Device4/OG_DUAL/";
+		public static String Device4WorkOGChromeProfile=chromeProfileCommonPath+"/Device4/OG_WORK/";
+		
+		
+
+		public static String Device4WAChromeProfile=chromeProfileCommonPath+"/Device4/WA/";
+		public static String Device4DualWAChromeProfile=chromeProfileCommonPath+"/Device4/WA_DUAL/";
+		public static String Device4WorkWAChromeProfile=chromeProfileCommonPath+"/Device4/WA_WORK/";
+		
+
+
+		public static String Device4WBChromeProfile=chromeProfileCommonPath+"/Device4/WB/";
+		public static String Device4DualWBChromeProfile=chromeProfileCommonPath+"/Device4/WB_DUAL/";
+		public static String Device4WorkWBChromeProfile=chromeProfileCommonPath+"/Device4/WB_WORK/";
+		
+		
+
+		public static String Device4YOChromeProfile=chromeProfileCommonPath+"/Device4/YO/";
+		public static String Device4DualYOChromeProfile=chromeProfileCommonPath+"/Device4/YO_DUAL/";
+		public static String Device4WorkYOChromeProfile=chromeProfileCommonPath+"/Device4/YO_WORK/";
+		
+		
+		
+		//Device5
+		
+		public static String Device5FMChromeProfile=chromeProfileCommonPath+"/Device5/FM/";
+		public static String Device5DualFMChromeProfile=chromeProfileCommonPath+"/Device5/FM_DUAL/";
+		public static String Device5WorkFMChromeProfile=chromeProfileCommonPath+"/Device5/FM_WORK/";
+
+		
+		
+		public static String Device5GBChromeProfile=chromeProfileCommonPath+"/Device5/GB/";
+		public static String Device5DualGBChromeProfile=chromeProfileCommonPath+"/Device5/GB_DUAL/";
+		public static String Device5WorkGBChromeProfile=chromeProfileCommonPath+"/Device5/GB_WORK/";
+
+		
+
+		public static String Device5AEROChromeProfile=chromeProfileCommonPath+"/Device5/AERO/";
+		public static String Device5DualAEROChromeProfile=chromeProfileCommonPath+"/Device5/AERO_DUAL/";
+		public static String Device5WorkAEROChromeProfile=chromeProfileCommonPath+"/Device5/AERO_WORK/";
+		
+
+		public static String Device5OGChromeProfile=chromeProfileCommonPath+"/Device5/OG/";
+		public static String Device5DualOGChromeProfile=chromeProfileCommonPath+"/Device5/OG_DUAL/";
+		public static String Device5WorkOGChromeProfile=chromeProfileCommonPath+"/Device5/OG_WORK/";
+		
+		
+
+		public static String Device5WAChromeProfile=chromeProfileCommonPath+"/Device5/WA/";
+		public static String Device5DualWAChromeProfile=chromeProfileCommonPath+"/Device5/WA_DUAL/";
+		public static String Device5WorkWAChromeProfile=chromeProfileCommonPath+"/Device5/WA_WORK/";
+		
+
+
+		public static String Device5WBChromeProfile=chromeProfileCommonPath+"/Device5/WB/";
+		public static String Device5DualWBChromeProfile=chromeProfileCommonPath+"/Device5/WB_DUAL/";
+		public static String Device5WorkWBChromeProfile=chromeProfileCommonPath+"/Device5/WB_WORK/";
+		
+		
+
+		public static String Device5YOChromeProfile=chromeProfileCommonPath+"/Device5/YO/";
+		public static String Device5DualYOChromeProfile=chromeProfileCommonPath+"/Device5/YO_DUAL/";
+		public static String Device5WorkYOChromeProfile=chromeProfileCommonPath+"/Device5/YO_WORK/";
+		
+		
+		
+		
+		//Device6
+		
+		public static String Device6FMChromeProfile=chromeProfileCommonPath+"/Device6/FM/";
+		public static String Device6DualFMChromeProfile=chromeProfileCommonPath+"/Device6/FM_DUAL/";
+		public static String Device6WorkFMChromeProfile=chromeProfileCommonPath+"/Device6/FM_WORK/";
+
+		
+		
+		public static String Device6GBChromeProfile=chromeProfileCommonPath+"/Device6/GB/";
+		public static String Device6DualGBChromeProfile=chromeProfileCommonPath+"/Device6/GB_DUAL/";
+		public static String Device6WorkGBChromeProfile=chromeProfileCommonPath+"/Device6/GB_WORK/";
+
+		
+
+		public static String Device6AEROChromeProfile=chromeProfileCommonPath+"/Device6/AERO/";
+		public static String Device6DualAEROChromeProfile=chromeProfileCommonPath+"/Device6/AERO_DUAL/";
+		public static String Device6WorkAEROChromeProfile=chromeProfileCommonPath+"/Device6/AERO_WORK/";
+		
+
+		public static String Device6OGChromeProfile=chromeProfileCommonPath+"/Device6/OG/";
+		public static String Device6DualOGChromeProfile=chromeProfileCommonPath+"/Device6/OG_DUAL/";
+		public static String Device6WorkOGChromeProfile=chromeProfileCommonPath+"/Device6/OG_WORK/";
+		
+		
+
+		public static String Device6WAChromeProfile=chromeProfileCommonPath+"/Device6/WA/";
+		public static String Device6DualWAChromeProfile=chromeProfileCommonPath+"/Device6/WA_DUAL/";
+		public static String Device6WorkWAChromeProfile=chromeProfileCommonPath+"/Device6/WA_WORK/";
+		
+
+
+		public static String Device6WBChromeProfile=chromeProfileCommonPath+"/Device6/WB/";
+		public static String Device6DualWBChromeProfile=chromeProfileCommonPath+"/Device6/WB_DUAL/";
+		public static String Device6WorkWBChromeProfile=chromeProfileCommonPath+"/Device6/WB_WORK/";
+		
+		
+
+		public static String Device6YOChromeProfile=chromeProfileCommonPath+"/Device6/YO/";
+		public static String Device6DualYOChromeProfile=chromeProfileCommonPath+"/Device6/YO_DUAL/";
+		public static String Device6WorkYOChromeProfile=chromeProfileCommonPath+"/Device6/YO_WORK/";
+		
+
 	}
 
 
