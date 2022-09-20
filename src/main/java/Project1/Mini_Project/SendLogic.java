@@ -21,7 +21,13 @@ public class SendLogic {
 		
 		
 		System.out.println("************* I am before file**************");
-		ArrayList<String> chatnames=GetChatlist.getChatListFromLocalFile(groupNameUrl);
+		ArrayList<String> chatnames=null;
+		try {
+		 chatnames=GetChatlist.getChatListFromLocalFile(groupNameUrl);
+		}
+		catch(Exception e) {
+			System.out.println(e.getLocalizedMessage());
+		}
 		System.out.println("************* I am after file**************");
 
 		System.out.println(chatnames.size());
