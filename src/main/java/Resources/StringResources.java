@@ -292,6 +292,11 @@ package Resources;
 		public static String Device1WorkAEROGroups=CommonUrl+"//Device1//AERO_WORK.txt";
 		
 
+
+		public static String Device1AERO2Groups=CommonUrl+"//Device1//AERO2.txt";
+		public static String Device1DualAERO2Groups=CommonUrl+"//Device1//AERO2_DUAL.txt";
+		public static String Device1WorkAERO2Groups=CommonUrl+"//Device1//AERO2_WORK.txt";
+		
 		public static String Device1OGGroups=CommonUrl+"//Device1//OG.txt";
 		public static String Device1DualOGGroups=CommonUrl+"//Device1//OG_DUAL.txt";
 		public static String Device1WorkOGGroups=CommonUrl+"//Device1//OG_WORK.txt";
@@ -332,6 +337,12 @@ package Resources;
 		public static String Device2AEROGroups=CommonUrl+"//Device2//AERO.txt";
 		public static String Device2DualAEROGroups=CommonUrl+"//Device2//AERO_DUAL.txt";
 		public static String Device2WorkAEROGroups=CommonUrl+"//Device2//AERO_WORK.txt";
+		
+		
+
+		public static String Device2AERO2Groups=CommonUrl+"//Device2//AERO2.txt";
+		public static String Device2DualAERO2Groups=CommonUrl+"//Device2//AERO2_DUAL.txt";
+		public static String Device2WorkAERO2Groups=CommonUrl+"//Device2//AERO2_WORK.txt";
 		
 
 		public static String Device2OGGroups=CommonUrl+"//Device2//OG.txt";
@@ -375,6 +386,12 @@ package Resources;
 		public static String Device3AEROGroups=CommonUrl+"//Device3//AERO.txt";
 		public static String Device3DualAEROGroups=CommonUrl+"//Device3//AERO_DUAL.txt";
 		public static String Device3WorkAEROGroups=CommonUrl+"//Device3//AERO_WORK.txt";
+		
+		
+
+		public static String Device3AERO2Groups=CommonUrl+"//Device3//AERO2.txt";
+		public static String Device3DualAERO2Groups=CommonUrl+"//Device3//AERO2_DUAL.txt";
+		public static String Device3WorkAERO2Groups=CommonUrl+"//Device3//AERO2_WORK.txt";
 		
 
 		public static String Device3OGGroups=CommonUrl+"//Device3//OG.txt";
@@ -420,6 +437,11 @@ package Resources;
 		public static String Device4WorkAEROGroups=CommonUrl+"//Device4//AERO_WORK.txt";
 		
 
+		public static String Device4AERO2Groups=CommonUrl+"//Device4//AERO2.txt";
+		public static String Device4DualAERO2Groups=CommonUrl+"//Device4//AERO2_DUAL.txt";
+		public static String Device4WorkAERO2Groups=CommonUrl+"//Device4//AERO2_WORK.txt";
+		
+
 		public static String Device4OGGroups=CommonUrl+"//Device4//OG.txt";
 		public static String Device4DualOGGroups=CommonUrl+"//Device4//OG_DUAL.txt";
 		public static String Device4WorkOGGroups=CommonUrl+"//Device4//OG_WORK.txt";
@@ -461,6 +483,13 @@ package Resources;
 		public static String Device5AEROGroups=CommonUrl+"//Device5//AERO.txt";
 		public static String Device5DualAEROGroups=CommonUrl+"//Device5//AERO_DUAL.txt";
 		public static String Device5WorkAEROGroups=CommonUrl+"//Device5//AERO_WORK.txt";
+		
+		
+
+
+		public static String Device5AERO2Groups=CommonUrl+"//Device5//AERO2.txt";
+		public static String Device5DualAERO2Groups=CommonUrl+"//Device5//AERO2_DUAL.txt";
+		public static String Device5WorkAERO2Groups=CommonUrl+"//Device5//AERO2_WORK.txt";
 		
 
 		public static String Device5OGGroups=CommonUrl+"//Device5//OG.txt";
@@ -505,6 +534,15 @@ package Resources;
 		public static String Device6AEROGroups=CommonUrl+"//Device6//AERO.txt";
 		public static String Device6DualAEROGroups=CommonUrl+"//Device6//AERO_DUAL.txt";
 		public static String Device6WorkAEROGroups=CommonUrl+"//Device6//AERO_WORK.txt";
+		
+		
+		
+
+
+		public static String Device6AERO2Groups=CommonUrl+"//Device6//AERO2.txt";
+		public static String Device6DualAERO2Groups=CommonUrl+"//Device6//AERO2_DUAL.txt";
+		public static String Device6WorkAERO2Groups=CommonUrl+"//Device6//AERO2_WORK.txt";
+		
 		
 
 		public static String Device6OGGroups=CommonUrl+"//Device6//OG.txt";
@@ -553,6 +591,12 @@ package Resources;
 		public static String Device1DualAEROChromeProfile=chromeProfileCommonPath+"/Device1/AERO_DUAL/";
 		public static String Device1WorkAEROChromeProfile=chromeProfileCommonPath+"/Device1/AERO_WORK/";
 		
+		
+
+		public static String Device1AERO2ChromeProfile=chromeProfileCommonPath+"/Device1/AERO2/";
+		public static String Device1DualAERO2ChromeProfile=chromeProfileCommonPath+"/Device1/AERO2_DUAL/";
+		public static String Device1WorkAERO2ChromeProfile=chromeProfileCommonPath+"/Device1/AERO2_WORK/";
+		
 
 		public static String Device1OGChromeProfile=chromeProfileCommonPath+"/Device1/OG/";
 		public static String Device1DualOGChromeProfile=chromeProfileCommonPath+"/Device1/OG_DUAL/";
@@ -596,6 +640,13 @@ package Resources;
 		public static String Device2WorkAEROChromeProfile=chromeProfileCommonPath+"/Device2/AERO_WORK/";
 		
 
+		
+		public static String Device2AERO2ChromeProfile=chromeProfileCommonPath+"/Device2/AERO2/";
+		public static String Device2DualAERO2ChromeProfile=chromeProfileCommonPath+"/Device2/AERO2_DUAL/";
+		public static String Device2WorkAERO2ChromeProfile=chromeProfileCommonPath+"/Device2/AERO2_WORK/";
+		
+
+		
 		public static String Device2OGChromeProfile=chromeProfileCommonPath+"/Device2/OG/";
 		public static String Device2DualOGChromeProfile=chromeProfileCommonPath+"/Device2/OG_DUAL/";
 		public static String Device2WorkOGChromeProfile=chromeProfileCommonPath+"/Device2/OG_WORK/";
@@ -637,6 +688,10 @@ package Resources;
 		public static String Device3AEROChromeProfile=chromeProfileCommonPath+"/Device3/AERO/";
 		public static String Device3DualAEROChromeProfile=chromeProfileCommonPath+"/Device3/AERO_DUAL/";
 		public static String Device3WorkAEROChromeProfile=chromeProfileCommonPath+"/Device3/AERO_WORK/";
+		
+		public static String Device3AERO2ChromeProfile=chromeProfileCommonPath+"/Device3/AERO2/";
+		public static String Device3DualAERO2ChromeProfile=chromeProfileCommonPath+"/Device3/AERO2_DUAL/";
+		public static String Device3WorkAERO2ChromeProfile=chromeProfileCommonPath+"/Device3/AERO2_WORK/";
 		
 
 		public static String Device3OGChromeProfile=chromeProfileCommonPath+"/Device3/OG/";
@@ -682,6 +737,11 @@ package Resources;
 		public static String Device4WorkAEROChromeProfile=chromeProfileCommonPath+"/Device4/AERO_WORK/";
 		
 
+		public static String Device4AERO2ChromeProfile=chromeProfileCommonPath+"/Device4/AERO2/";
+		public static String Device4DualAERO2ChromeProfile=chromeProfileCommonPath+"/Device4/AERO2_DUAL/";
+		public static String Device4WorkAERO2ChromeProfile=chromeProfileCommonPath+"/Device4/AERO2_WORK/";
+		
+		
 		public static String Device4OGChromeProfile=chromeProfileCommonPath+"/Device4/OG/";
 		public static String Device4DualOGChromeProfile=chromeProfileCommonPath+"/Device4/OG_DUAL/";
 		public static String Device4WorkOGChromeProfile=chromeProfileCommonPath+"/Device4/OG_WORK/";
@@ -725,6 +785,12 @@ package Resources;
 		public static String Device5WorkAEROChromeProfile=chromeProfileCommonPath+"/Device5/AERO_WORK/";
 		
 
+
+		public static String Device5AERO2ChromeProfile=chromeProfileCommonPath+"/Device5/AERO2/";
+		public static String Device5DualAERO2ChromeProfile=chromeProfileCommonPath+"/Device5/AERO2_DUAL/";
+		public static String Device5WorkAERO2ChromeProfile=chromeProfileCommonPath+"/Device5/AERO2_WORK/";
+		
+		
 		public static String Device5OGChromeProfile=chromeProfileCommonPath+"/Device5/OG/";
 		public static String Device5DualOGChromeProfile=chromeProfileCommonPath+"/Device5/OG_DUAL/";
 		public static String Device5WorkOGChromeProfile=chromeProfileCommonPath+"/Device5/OG_WORK/";
@@ -767,6 +833,10 @@ package Resources;
 		public static String Device6AEROChromeProfile=chromeProfileCommonPath+"/Device6/AERO/";
 		public static String Device6DualAEROChromeProfile=chromeProfileCommonPath+"/Device6/AERO_DUAL/";
 		public static String Device6WorkAEROChromeProfile=chromeProfileCommonPath+"/Device6/AERO_WORK/";
+		
+		public static String Device6AERO2ChromeProfile=chromeProfileCommonPath+"/Device6/AERO2/";
+		public static String Device6DualAERO2ChromeProfile=chromeProfileCommonPath+"/Device6/AERO2_DUAL/";
+		public static String Device6WorkAERO2ChromeProfile=chromeProfileCommonPath+"/Device6/AERO2_WORK/";
 		
 
 		public static String Device6OGChromeProfile=chromeProfileCommonPath+"/Device6/OG/";
