@@ -1,14 +1,12 @@
 package AllTestCases;
 
 import java.io.FileNotFoundException;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
-
 import Project1.Mini_Project.SendLogic;
 import Resources.StringResources;
 import Project1.Mini_Project.DriverManager;
-import Project1.Mini_Project.PageObjects;
+
 
 public class Device2Tests {
 
