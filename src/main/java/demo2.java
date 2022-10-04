@@ -28,8 +28,7 @@ import Project1.Mini_Project.GetChatlist;
 import Project1.Mini_Project.MessageSetter;
 import Resources.StringResources;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import it.auties.whatsapp.api.Whatsapp;
-import lombok.var;
+
 
 public class demo2 {
 

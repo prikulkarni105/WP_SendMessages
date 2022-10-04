@@ -50,11 +50,7 @@
     <!-- https://mvnrepository.com/artifact/com.github.auties00/whatsappweb4j -->
 <!-- https://mvnrepository.com/artifact/com.github.auties00/whatsappweb4j -->
 <!-- https://mvnrepository.com/artifact/com.github.auties00/whatsappweb4j -->
-<dependency>
-    <groupId>com.github.auties00</groupId>
-    <artifactId>whatsappweb4j</artifactId>
-    <version>3.0-RC24</version>
-</dependency>
+
 
 
   </dependencies>
