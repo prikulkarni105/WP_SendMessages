@@ -41,7 +41,6 @@ public class demo {
 		//	System.out.println(driver.getTitle());
 			//driver.getTitle();
 
-			Whatsapp api=Whatsapp.firstConnection();
 
 		
 			//
