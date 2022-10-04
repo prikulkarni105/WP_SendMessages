@@ -28,6 +28,8 @@ public class SendLogic {
 		catch(Exception e) {
 			System.out.println(e.getLocalizedMessage());
 		}
+		
+		System.out.println("**************************"+chatnames.size()+"************************");
 
 			
 
@@ -39,6 +41,7 @@ public class SendLogic {
 		for (WebElement groupNameWebElement : chatnames)
 		{
 
+			System.out.println("****************"+groupNameWebElement.getText()+"****************");
 			try 
 			{
 				if(i%5==0)
@@ -64,6 +67,8 @@ public class SendLogic {
 			}
 			catch (Exception e) 
 			{
+				System.out.println("****************"+e.getLocalizedMessage()+"****************");
+
 				continue;
 			}
 			
