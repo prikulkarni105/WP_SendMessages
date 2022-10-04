@@ -6,8 +6,16 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.time.Duration;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class GetChatlist {
 
@@ -42,4 +50,19 @@ public class GetChatlist {
 			 return chatlist;
 				   
 		}
+	
+	public static List<WebElement> getChatListFromExtension(WebDriver driver) throws IOException, InterruptedException
+	{
+		
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(150));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("css-p3bvdo")));
+		
+		driver.findElement(By.className("css-p3bvdo")).click();
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("//button[text()='Export Contacts']")).click();
+		Thread.sleep(2000);
+		List<WebElement> groupArrayList= driver.findElements(By.className("css-notc4y"));
+		return groupArrayList;
+		
+	}
 }

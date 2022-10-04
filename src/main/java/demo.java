@@ -11,9 +11,17 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
 import Project1.Mini_Project.GetChatlist;
 import Project1.Mini_Project.MessageSetter;
 import Resources.StringResources;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import it.auties.whatsapp.api.Whatsapp;
+import lombok.var;
 
 public class demo {
 
@@ -22,9 +30,19 @@ public class demo {
 
 		//This method returns list of string from local file//demo added
 		
-	String message=MessageSetter.pickRandomMessage(StringResources.MessagesFolder);
-		System.out.println(message);	
-		
+			WebDriverManager.chromedriver().setup();
+			
+			ChromeOptions options=new ChromeOptions();
+			options.addArguments("--user-data-dir=/Users/dhirajkulkarni/Desktop/DemoDataDir");
+
+		//	WebDriver driver=new ChromeDriver(options);
+			//driver.get("https://web.whatsapp.com");
+
+		//	System.out.println(driver.getTitle());
+			//driver.getTitle();
+
+			Whatsapp api=Whatsapp.firstConnection();
+
 		
 			//
 	}

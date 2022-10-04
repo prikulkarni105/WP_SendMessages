@@ -1,5 +1,7 @@
 package Project1.Mini_Project;
 
+import java.io.File;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -22,12 +24,12 @@ public class DriverManager
 		{
 			ChromeOptions option=new ChromeOptions();
 			option.addArguments("--user-data-dir="+chromeProfilePath);
+			option.addExtensions(new File(System.getProperty("user.dir")+"//Extension//extension.crx"));
 			WebDriverManager.chromedriver().setup();
 			WebDriver driver=new ChromeDriver(option);
 			driver.get(url);
 			return driver;
 		}
-		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\patil\\Desktop\\Selenium\\chromedriver.exe");
 		if (browserName.equalsIgnoreCase("firefox")) 
 		//else
 		{

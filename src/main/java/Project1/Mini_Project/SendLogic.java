@@ -3,8 +3,10 @@ package Project1.Mini_Project;
 import java.io.FileNotFoundException;
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.List;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class SendLogic {
@@ -15,34 +17,27 @@ public class SendLogic {
 		PageObjects msend=new PageObjects();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
 		driver.manage().window().maximize();
-		
-		
 		msend.waitUnitlChatListLoaded(driver);
 		
 		
-		System.out.println("************* I am before file**************");
-		ArrayList<String> chatnames=null;
+		//Get Chat List From WhatsApp Web Via Extension
+		List<WebElement> chatnames=null;
 		try {
-		 chatnames=GetChatlist.getChatListFromURL(groupNameUrl);
+		 chatnames=GetChatlist.getChatListFromExtension(driver);
 		}
 		catch(Exception e) {
 			System.out.println(e.getLocalizedMessage());
 		}
-		System.out.println("************* I am after file**************");
 
-		System.out.println(chatnames.size());
-		
-		System.out.println("************* Size**************");
+			
 
 		System.out.println(groupNameUrl);
 		
-		System.out.println("************* URL**************");
 
 		int i=1;
 	
-		for (String string : chatnames)
+		for (WebElement groupNameWebElement : chatnames)
 		{
-			System.out.println("************* I am in the loop**************");
 
 			try 
 			{
@@ -56,7 +51,7 @@ public class SendLogic {
 		        Thread.sleep(1000);
 		        msend.chatListSearch(driver).clear();
 		        Thread.sleep(1000);
-	            msend.chatListSearch(driver).sendKeys(string);
+	            msend.chatListSearch(driver).sendKeys(groupNameWebElement.getText());
 	    	    Thread.sleep(1000);
 	    	    msend.matchedText(driver).click();
 	    	    Thread.sleep(1000);
@@ -75,10 +70,8 @@ public class SendLogic {
 		}
 	   //To close your driver
 		
-		System.out.println("************* Clsing**************");
 
 	  DriverManager.tearDown(driver);
-		System.out.println("************* Closed**************");
 
 	}
 	
