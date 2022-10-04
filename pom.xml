@@ -133,6 +133,8 @@
 					          <suiteXmlFiles>
 						            <suiteXmlFile>Device2.xml</suiteXmlFile>
 						      </suiteXmlFiles>
+						         <argLine>--enable-preview</argLine>
+
 					        </configuration>
      				 </plugin>
 	  			</plugins>
