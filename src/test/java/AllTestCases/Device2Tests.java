@@ -27,7 +27,7 @@ public class Device2Tests {
 			msend.sendTextMessage(driver, StringResources.Device2FMGroups);
 			}
 		
-		@Test(enabled = true,  priority=2)
+		@Test(enabled = false,  priority=2)
 		public void Device2_DUALFM_Test() throws InterruptedException, FileNotFoundException 
 		    {
 			DriverManager id=new DriverManager();
@@ -36,7 +36,7 @@ public class Device2Tests {
 			msend.sendTextMessage(driver, StringResources.Device2DualFMGroups);
 			}
 		
-		@Test(enabled = false,  priority=3)
+		@Test(enabled = true,  priority=3)
 		public void Device2_WORKFM_Test() throws InterruptedException, FileNotFoundException 
 		    {
 			DriverManager id=new DriverManager();
@@ -47,7 +47,7 @@ public class Device2Tests {
 		
 	//GB WhatsApp Tests
 	
-			@Test(enabled=false, priority=4)
+			@Test(enabled=true, priority=4)
 			public void Device2_GB_Test() throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -56,7 +56,7 @@ public class Device2Tests {
 				msend.sendTextMessage(driver, StringResources.Device2GBGroups);
 			}
 			
-			@Test(enabled=false, priority=5)
+			@Test(enabled=true, priority=5)
 			public void Device2_DUALGB_Test() throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -65,7 +65,7 @@ public class Device2Tests {
 				msend.sendTextMessage(driver, StringResources.Device2DualGBGroups);
 			}
 			
-			@Test(enabled=false, priority=6)
+			@Test(enabled=true, priority=6)
 			public void Device2_WORKGB_Test() throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -76,7 +76,7 @@ public class Device2Tests {
 			
   //AERO WhatsApp Tests
 			
-			@Test(enabled=false, priority=7)
+			@Test(enabled=true, priority=7)
 			public void Device2_AERO_Test() throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -84,7 +84,7 @@ public class Device2Tests {
 				SendLogic msend=new SendLogic();
 				msend.sendTextMessage(driver, StringResources.Device2AEROGroups);
 			}
-			@Test(enabled=false, priority=8)
+			@Test(enabled=true, priority=8)
 			public void Device2_DUALAERO_Test() throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -92,7 +92,7 @@ public class Device2Tests {
 				SendLogic msend=new SendLogic();
 				msend.sendTextMessage(driver, StringResources.Device2DualAEROGroups);
 			}
-			@Test(enabled=false, priority=9)
+			@Test(enabled=true, priority=9)
 			public void Device2_WORKAERO_Test() throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -103,7 +103,7 @@ public class Device2Tests {
 			
   //OG WhatsApp Tests
 			
-			@Test(enabled=false, priority=10)
+			@Test(enabled=true, priority=10)
 			public void Device2_OG_Test() throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -111,7 +111,7 @@ public class Device2Tests {
 				SendLogic msend=new SendLogic();
 				msend.sendTextMessage(driver, StringResources.Device2OGGroups);
 			}
-			@Test(enabled=false, priority=11)
+			@Test(enabled=true, priority=11)
 			public void Device2_DUALOG_Test() throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -119,7 +119,7 @@ public class Device2Tests {
 				SendLogic msend=new SendLogic();
 				msend.sendTextMessage(driver, StringResources.Device2DualOGGroups);
 			}
-			@Test(enabled=false, priority=12)
+			@Test(enabled=true, priority=12)
 			public void Device2_WORKOG_Test()throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -130,7 +130,7 @@ public class Device2Tests {
 			
   //WA WhatsApp Tests
 			
-			@Test(enabled=false, priority=13)
+			@Test(enabled=true, priority=13)
 			public void Device2_WA_Test() throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -138,7 +138,7 @@ public class Device2Tests {
 				SendLogic msend=new SendLogic();
 				msend.sendTextMessage(driver, StringResources.Device2WAGroups);
 			}
-			@Test(enabled=false, priority=14)
+			@Test(enabled=true, priority=14)
 			public void Device2_DUALWA_Test() throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -146,7 +146,7 @@ public class Device2Tests {
 				SendLogic msend=new SendLogic();
 				msend.sendTextMessage(driver, StringResources.Device2DualWAGroups);
 			}
-			@Test(enabled=false, priority=15)
+			@Test(enabled=true, priority=15)
 			public void Device2_WORKWA_Test() throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -156,7 +156,7 @@ public class Device2Tests {
 			}
   //WB WhatsApp Tests
 			
-			@Test(enabled=false, priority=16)
+			@Test(enabled=true, priority=16)
 			public void Device2_WB_Test() throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -164,7 +164,7 @@ public class Device2Tests {
 				SendLogic msend=new SendLogic();
 				msend.sendTextMessage(driver, StringResources.Device2WBGroups);
 			}
-			@Test(enabled=false, priority=17)
+			@Test(enabled=true, priority=17)
 			public void Device2_DUALWB_Test()throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -172,7 +172,7 @@ public class Device2Tests {
 				SendLogic msend=new SendLogic();
 				msend.sendTextMessage(driver, StringResources.Device2DualWBGroups);
 			}
-			@Test(enabled=false, priority=18)
+			@Test(enabled=true, priority=18)
 			public void Device2_WORKWB_Test() throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -183,7 +183,7 @@ public class Device2Tests {
 			
   //YO WhatsApp Tests
 			
-			@Test(enabled=false, priority=19)
+			@Test(enabled=true, priority=19)
 			public void Device2_YO_Test() throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -191,7 +191,7 @@ public class Device2Tests {
 				SendLogic msend=new SendLogic();
 				msend.sendTextMessage(driver, StringResources.Device2YOGroups);
 			}
-			@Test(enabled=false, priority=20)
+			@Test(enabled=true, priority=20)
 			public void Device2_DUALYO_Test() throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
@@ -199,7 +199,7 @@ public class Device2Tests {
 				SendLogic msend=new SendLogic();
 				msend.sendTextMessage(driver, StringResources.Device2DualYOGroups);
 			}
-			@Test(enabled=false, priority=21)
+			@Test(enabled=true, priority=21)
 			public void Device2_WORKYO_Test() throws InterruptedException, FileNotFoundException 
 		    {
 				DriverManager id=new DriverManager();
