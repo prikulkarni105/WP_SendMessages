@@ -47,7 +47,7 @@ public class SendLogic {
 			{
 				if(i%5==0)
 				{
-					Thread.sleep(20000);
+					Thread.sleep(15000);
 				}
 				i++;
 				
