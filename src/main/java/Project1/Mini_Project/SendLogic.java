@@ -27,6 +27,7 @@ public class SendLogic {
 		}
 		catch(Exception e) {
 			System.out.println(e.getLocalizedMessage());
+			chatnames=null;
 		}
 		
 		System.out.println("**************************Total Groups ---"+chatnames.size()+"************************");
