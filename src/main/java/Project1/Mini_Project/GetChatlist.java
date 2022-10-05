@@ -68,7 +68,7 @@ public class GetChatlist {
 		
 		System.out.println("****************"+groupArrayList.size()+"********************");
 		
-		List<String> finalNames = null;
+		List<String> finalNames = new ArrayList<String>();
 		
 		for (WebElement webelement : groupArrayList) {
 			
