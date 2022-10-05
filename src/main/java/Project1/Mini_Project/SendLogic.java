@@ -55,7 +55,8 @@ public class SendLogic {
 		        Thread.sleep(1000);
 		        msend.chatListSearch(driver).clear();
 		        Thread.sleep(1000);
-	            msend.chatListSearch(driver).sendKeys(groupNameWebElement);
+	          //  msend.chatListSearch(driver).sendKeys(groupNameWebElement);
+		        msend.sendGroupName(driver,groupNameWebElement);
 	    	    Thread.sleep(1000);
 	    	    msend.matchedText(driver).click();
 	    	    Thread.sleep(1000);

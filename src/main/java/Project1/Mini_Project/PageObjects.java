@@ -89,4 +89,12 @@ public class PageObjects {
 			 return sbutton;
 		}		
 		
+		public void sendGroupName(WebDriver driver, String groupname) throws IOException
+		{
+			StringSelection group_to_send=new StringSelection(groupname);
+    	    Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+    	    clipboard.setContents(group_to_send, null);
+    	    chatListSearch(driver).sendKeys(Keys.CONTROL+"v");
+		}
+
 }

@@ -18,7 +18,7 @@ public class Device2Tests {
 	
 	//FM WhatsApp Tests
 	//karto hara change
-		@Test(enabled = true, priority=1)
+		@Test(enabled = false, priority=1)
 		public void Device2_FM_Test() throws InterruptedException, FileNotFoundException 
 		    {
 			DriverManager id=new DriverManager();
@@ -27,7 +27,7 @@ public class Device2Tests {
 			msend.sendTextMessage(driver, StringResources.Device2FMGroups);
 			}
 		
-		@Test(enabled = false,  priority=2)
+		@Test(enabled = true,  priority=2)
 		public void Device2_DUALFM_Test() throws InterruptedException, FileNotFoundException 
 		    {
 			DriverManager id=new DriverManager();
