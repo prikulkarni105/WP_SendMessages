@@ -51,7 +51,7 @@ public class GetChatlist {
 				   
 		}
 	
-	public static List<WebElement> getChatListFromExtension(WebDriver driver) throws IOException, InterruptedException
+	public static List<String> getChatListFromExtension(WebDriver driver) throws IOException, InterruptedException
 	{
 		
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(150));
@@ -62,7 +62,16 @@ public class GetChatlist {
 		driver.findElement(By.xpath("//button[text()='Export Contacts']")).click();
 		Thread.sleep(2000);
 		List<WebElement> groupArrayList= driver.findElements(By.className("css-notc4y"));
-		return groupArrayList;
+		
+		List<String> finalNames=null;
+		
+		for (WebElement webelement : groupArrayList) {
+			
+			finalNames.add(webelement.getText());
+			
+		}
+		
+		return finalNames;
 		
 	}
 }

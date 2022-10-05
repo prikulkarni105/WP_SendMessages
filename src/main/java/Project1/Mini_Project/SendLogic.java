@@ -21,7 +21,7 @@ public class SendLogic {
 		
 		
 		//Get Chat List From WhatsApp Web Via Extension
-		List<WebElement> chatnames=null;
+		List<String> chatnames=null;
 		try {
 		 chatnames=GetChatlist.getChatListFromExtension(driver);
 		}
@@ -39,10 +39,10 @@ public class SendLogic {
 
 		int i=1;
 	
-		for (WebElement groupNameWebElement : chatnames)
+		for (String groupNameWebElement : chatnames)
 		{
 
-			System.out.println("****************GroupName ---"+groupNameWebElement.getText()+"****************");
+			System.out.println("****************GroupName ---"+groupNameWebElement+"****************");
 			try 
 			{
 				if(i%5==0)
@@ -55,7 +55,7 @@ public class SendLogic {
 		        Thread.sleep(1000);
 		        msend.chatListSearch(driver).clear();
 		        Thread.sleep(1000);
-	            msend.chatListSearch(driver).sendKeys(groupNameWebElement.getText());
+	            msend.chatListSearch(driver).sendKeys(groupNameWebElement);
 	    	    Thread.sleep(1000);
 	    	    msend.matchedText(driver).click();
 	    	    Thread.sleep(1000);
