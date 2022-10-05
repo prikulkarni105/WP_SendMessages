@@ -8,7 +8,10 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 import java.util.Scanner;
 
 import org.openqa.selenium.By;
@@ -63,7 +66,9 @@ public class GetChatlist {
 		Thread.sleep(2000);
 		List<WebElement> groupArrayList= driver.findElements(By.className("css-notc4y"));
 		
-		List<String> finalNames=null;
+		System.out.println("****************"+groupArrayList.size()+"********************");
+		
+		List<String> finalNames = null;
 		
 		for (WebElement webelement : groupArrayList) {
 			
