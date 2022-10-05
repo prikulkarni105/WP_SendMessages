@@ -29,7 +29,7 @@ public class SendLogic {
 			System.out.println(e.getLocalizedMessage());
 		}
 		
-		System.out.println("**************************"+chatnames.size()+"************************");
+		System.out.println("**************************Total Groups ---"+chatnames.size()+"************************");
 
 			
 
@@ -41,7 +41,7 @@ public class SendLogic {
 		for (WebElement groupNameWebElement : chatnames)
 		{
 
-			System.out.println("****************"+groupNameWebElement.getText()+"****************");
+			System.out.println("****************GroupName ---"+groupNameWebElement.getText()+"****************");
 			try 
 			{
 				if(i%5==0)
@@ -67,7 +67,7 @@ public class SendLogic {
 			}
 			catch (Exception e) 
 			{
-				System.out.println("****************"+e.getLocalizedMessage()+"****************");
+				System.out.println("****************Exception ----"+e.getLocalizedMessage()+"****************");
 
 				continue;
 			}
@@ -75,6 +75,7 @@ public class SendLogic {
 		}
 	   //To close your driver
 		
+		System.out.println("****************Quitting****************");
 
 	  DriverManager.tearDown(driver);
 
