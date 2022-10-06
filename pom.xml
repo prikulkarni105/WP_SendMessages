@@ -116,6 +116,8 @@
 					          <suiteXmlFiles>
 						            <suiteXmlFile>Device1.xml</suiteXmlFile>
 						      </suiteXmlFiles>
+						      						         <argLine>--enable-preview</argLine>
+
 					        </configuration>
      				 </plugin>
 	  			</plugins>
@@ -152,6 +154,8 @@
 					           <suiteXmlFiles>
 						            <suiteXmlFile>Device3.xml</suiteXmlFile>
 						      </suiteXmlFiles>
+						      	 <argLine>--enable-preview</argLine>
+
 					        </configuration>
      				 </plugin>
 	  			</plugins>
@@ -169,6 +173,8 @@
 					          <suiteXmlFiles>
 						            <suiteXmlFile>Device4.xml</suiteXmlFile>
 						      </suiteXmlFiles>
+						      						         <argLine>--enable-preview</argLine>
+
 					        </configuration>
      				 </plugin>
 	  			</plugins>
@@ -186,6 +192,8 @@
 					           <suiteXmlFiles>
 						            <suiteXmlFile>Device5.xml</suiteXmlFile>
 						      </suiteXmlFiles>
+						      						         <argLine>--enable-preview</argLine>
+
 					        </configuration>
      				 </plugin>
 	  			</plugins>
@@ -203,6 +211,8 @@
 					          <suiteXmlFiles>
 						            <suiteXmlFile>Device6.xml</suiteXmlFile>
 						      </suiteXmlFiles>
+						      						         <argLine>--enable-preview</argLine>
+
 					        </configuration>
      				 </plugin>
 	  			</plugins>
